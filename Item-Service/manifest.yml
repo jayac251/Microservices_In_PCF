@@ -1,0 +1,11 @@
+applications:
+- name: jc-item-service
+  disk_quota: 1G
+  instances: 1
+  path: target/Item-Service-0.0.1-SNAPSHOT.jar
+  memory: 1G
+  routes:
+  - route: jc-item-service.cfapps.io
+  services:
+  - naming-server
+  stack: cflinuxfs3

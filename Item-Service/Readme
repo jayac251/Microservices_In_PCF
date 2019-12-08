@@ -1,0 +1,5 @@
+
+insert into  CUSTOMER values(1,'123@abc.com','Girisha','Yadav');
+insert into  CUSTOMER values(2,'456@abc.com','Supraja','Yadav');
+
+select * from CUSTOMER ;
