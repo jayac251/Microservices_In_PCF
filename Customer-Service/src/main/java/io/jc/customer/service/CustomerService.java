@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
-import io.jc.customer.common.mq.config.RabbitMQSender;
+//import io.jc.customer.common.mq.config.RabbitMQSender;
 import io.jc.customer.repo.Customer;
 import io.jc.customer.repo.CustomerRepository;
 
@@ -32,8 +32,8 @@ public class CustomerService {
 	@Autowired
 	private CustomerRepository customerRepository;
 	
-	@Autowired
-	private RabbitMQSender rbtMQSender;
+	//@Autowired
+	//private RabbitMQSender rbtMQSender;
 
 	@PostConstruct
 	void initialize() {

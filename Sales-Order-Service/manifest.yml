@@ -6,6 +6,8 @@ applications:
   memory: 1G
   routes:
   - route: jc-sales-order-service.cfapps.io
+  buildpacks:
+    - https://github.com/cloudfoundry/java-buildpack.git
   services:
   - naming-server
   stack: cflinuxfs3

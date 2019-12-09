@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+//import org.springframework.cloud.stream.binder.rabbit.config.RabbitServiceAutoConfiguration;
 
 @EnableDiscoveryClient
 @EnableHystrixDashboard

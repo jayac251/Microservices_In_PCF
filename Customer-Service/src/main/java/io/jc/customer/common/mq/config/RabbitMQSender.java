@@ -1,4 +1,6 @@
-package io.jc.customer.common.mq.config;
+/**
+ * package io.jc.customer.common.mq.config;
+ 
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import io.jc.customer.repo.Customer;
 
-@Service
+/*@Service
 public class RabbitMQSender {
 
 	@Autowired
@@ -18,3 +20,4 @@ public class RabbitMQSender {
 
 	}
 }
+*/

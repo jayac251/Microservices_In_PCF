@@ -1,6 +1,7 @@
 /**
  * 
- */
+
+
 package io.jc.customer.common.mq.config;
 
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
@@ -18,8 +19,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * @author 197651
  *
  */
-@Configuration
-public class RabbitMQConfig {
+//@Configuration
+/*public class RabbitMQConfig {
 	
 	@Value("${spring.rabbitmq.host}")
 	String host;
@@ -71,6 +72,5 @@ public class RabbitMQConfig {
 	        return new RabbitAdmin(connectionFactory());
 	    }
 
-	}
-
-
+	} 
+ */
